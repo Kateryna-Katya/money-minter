@@ -2,127 +2,144 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/money-minter/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-CFrPtiMb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monda:wght@400..700&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Money Minter</title>
+    <script type="module" crossorigin src="/money-minter/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/money-minter/assets/styles-D95bo3jo.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/test/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+      <!-- hero -->
+ <section class="hero-section">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/test/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
-    </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
-  </div>
-</section>
+    <h1 class="visually-hidden">Money Minter</h1>
+    <picture>
+      <source srcset="/money-minter/assets/logo-desk-Kf--1a-D.png 1x, /money-minter/assets/logo-desk@2x-C6nFABE5.png 2x" media="(min-width: 1439px)" />
+      <source srcset="/money-minter/assets/logo-mob-CnfA7xUu.png 1x, /money-minter/assets/logo-mob@2x-CUKERNl1.png 2x" media="(max-width: 1438px)" />
+      <img class="hero-logo" src="/money-minter/assets/logo-mob-CnfA7xUu.png" alt="Logo" loading="lazy" />
+  </picture>
+  <picture>
+    <source srcset="/money-minter/assets/img-desk-CZBIADz1.png 1x, /money-minter/assets/img-desk.@2x-CXQZvIpj.png 2x" media="(min-width: 1439px)" />
+    <source srcset="/money-minter/assets/img-mob-Cc_uwl1e.png 1x, /money-minter/assets/img-mob@2x-VE9c0Jn4.png 2x" media="(max-width: 1438px)" />
+    <img class="hero-text" src="/money-minter/assets/img-mob-Cc_uwl1e.png" alt="title" loading="lazy" />
+</picture>
 
-      <article class="badges">
-  <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
+  <a class="hero-button" href="index.html#Free">
+  <img class="hero-img-button" src="/money-minter/assets/buton-hero-BX0VLnGF.png" srcset="/money-minter/assets/buton-hero-BX0VLnGF.png 1x, /money-minter/assets/buton-hero@2x-TPSdJ33Z.png 2x"
+                    alt="Button" loading="lazy" />
+                  </a>
   </div>
-</article>
+ </section>
+ <!--Workshop-->
+ <section class="workshop-section">
+  <div class="container">
+    <h2 class="subtitle-workshop">
+      Enter the Workshop of Wonders
+     </h2>
+     <div class="workshop-container">
+     <h3 class="subtitle-coins">
+      Where Coins Are Born from Magic
+     </h3>
+     <p class="text-coins">
+      In Money Minter, you don’t just win—you create value.<br/>
+      Step into a fantasy minting workshop filled with enchanted contraptions, golden mechanisms, and ancient spells. Spin the reels to power machines, mint magical coins, and watch your wealth manifest from the arcane and the mechanical.<br/>
+       Perfect for dreamers who love gold, charm, and creative gameplay
+     </p>
+    </div>
+     <picture>
+      <source srcset="/money-minter/assets/img-coin-BTrTyk9O.png 1x, /money-minter/assets/img-coin-BTrTyk9O.png 2x" media="(min-width: 1439px)" />
+      <source srcset="/money-minter/assets/img-coin-mob-Cw2aYYpJ.png 1x, /money-minter/assets/img-coin-mob@2x-BfdMaHh6.png 2x" media="(max-width: 1438px)" />
+      <img class="workshop-img" src="/money-minter/assets/img-coin-mob-Cw2aYYpJ.png" alt="Logo" loading="lazy" />
+  </picture>
+  </div>
+ </section>
+<!-- What Makes the Minter Tick -->
+ <section class="minter-section">
+  <div class="container">
+<h2  class="minter-title">
+  What Makes the Minter Tick
+</h2>
+<h3 class="minter-subtitle">
+  Features Forged in Gold
+</h3>
+<ul class="minter-list">
+  <li class="minter-item">
+    <picture>
+      <source srcset="/money-minter/assets/img-coin-desk-BUf5xGAn.png 1x, /money-minter/assets/img-coin-desk@2x-BtWN40U1.png 2x" media="(min-width: 1439px)" />
+      <source srcset="/img/minter/img-coin-mob.png 1x, /money-minter/assets/img-coin-mob@2x-BLXoYUYc.png 2x" media="(max-width: 1438px)" />
+      <img class="minter-img" src="/img/minter/img-coin-mob.png" alt="Features" loading="lazy" />
+  </picture>
+  <div class="minter-container">
+    <p class="first-minter-text">
+      Gear Wilds:
+    </p>
+    <p class="second-minter-text">
+      Trigger golden gear symbols that multiply line wins.
+    </p>
+  </div>
+  </li>
+  <li class="minter-item">
+    <picture>
+      <source srcset="/money-minter/assets/img-gold-desk-CqyNXWBn.png 1x, /money-minter/assets/img-gold-desk@2x-Db9-xOQR.png 2x" media="(min-width: 1439px)" />
+      <source srcset=".png 1x, /money-minter/assets/img-gold-mob@2x-CSyskTEd.png 2x" media="(max-width: 1438px)" />
+      <img class="minter-img" src="/img/minter/img-gold-mob .png" alt="Features" loading="lazy" />
+  </picture>
+  <div class="minter-container">
+    <p class="first-minter-text">
+      Mint Bonus Wheel:
+    </p>
+    <p class="second-minter-text">
+      Spin the mechanical wheel to win free coins or magic boosts.
+    </p>
+  </div>
+  </li>
+  <li class="minter-item">
+    <picture>
+      <source srcset="/money-minter/assets/img-moneybag-desk-DnOwOCOk.png 1x, /money-minter/assets/img-moneybag-desk@2x-DKDXBAuS.png 2x" media="(min-width: 1439px)" />
+      <source srcset=".png 1x, /money-minter/assets/img-moneybag-mob@2x-ddnVh_UJ.png 2x" media="(max-width: 1438px)" />
+      <img class="minter-img" src="/img/minter/img-moneybag-mob .png" alt="Features" loading="lazy" />
+  </picture>
+  <div class="minter-container">
+    <p class="first-minter-text">
+      Mystery Chest Symbols:
+    </p>
+    <p class="second-minter-text">
+      Collect random chests filled with surprise rewards.
+    </p>
+  </div>
+  </li>
+  <li class="minter-item">
+    <picture>
+      <source srcset="/img/minter/imgwild-desk.png 1x, /money-minter/assets/img-wild-desk@2x-BpmGESuU.png 2x" media="(min-width: 1439px)" />
+      <source srcset=".png 1x, /money-minter/assets/img-wild-mob@2x-Bzx2MaUZ.png 2x" media="(max-width: 1438px)" />
+      <img class="minter-img" src="/img/minter/img-wild-mob .png" alt="Features" loading="lazy" />
+  </picture>
+  <div class="minter-container">
+    <p class="first-minter-text">
+      Free Spins Round:
+    </p>
+    <p class="second-minter-text">
+      Unlock the full workshop mode for boosted payouts.
+    </p>
+  </div>
+  </li>
+</ul>
+  </div>
+ </section>
 
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
