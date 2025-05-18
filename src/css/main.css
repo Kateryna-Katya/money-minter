@@ -1,0 +1,204 @@
+/* hero */
+.hero-section{
+  background-image: url("/img/hero/hero-mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 899px;
+}
+.hero-logo{
+  width: 302px;
+  height: 188px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 28px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.hero-text{
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width: 1439px) {
+  .hero-section{
+    background-image: url("/img/hero/hero-desk.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 800px;
+  }
+  .hero-logo{
+    width: 417px;
+    height: 260px;
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 28px;
+  }
+  .hero-text{
+    margin-bottom: 32px;
+    margin-left: 70px;
+    margin-right: auto;
+  }
+  .hero-img-button{
+    margin-left: 150px;
+  }
+}
+/* workshop */
+.workshop-section{
+  background-image:url("/img/workshop/img-coin-img-mob@2x.png"), linear-gradient(180deg, #051701 0%, #083401 100%);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1052px;
+}
+.subtitle-workshop{
+ width: 320px;
+margin-left: auto;
+margin-right: auto;
+}
+.subtitle-coins{
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Monda" sans-serif;
+font-weight: 700;
+font-size: 28px;
+line-height: 114%;
+text-align: center;
+color: #fff;
+}
+.text-coins{
+  margin-top: 28px;
+}
+.workshop-img{
+width: 284px;
+height: 287px;
+margin-top: 29px;
+}
+@media only screen and (min-width: 1439px) {
+  .workshop-section{
+    background-image:url("/img/workshop/img-coin-desk@2x.png"), linear-gradient(180deg, #051701 0%, #083401 100%);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 849px;
+  }
+  .subtitle-workshop{
+    width: 1280px;
+   margin-left: auto;
+   margin-right: auto;
+   }
+   .subtitle-coins{
+    margin-top: 120px;
+    text-align: left;
+    font-size: 36px;
+    width: 655px;
+  }
+  .workshop-container{
+    margin-left: 680px;
+    width: 655px;
+  }
+  .text-coins{
+    width: 580px;
+  }
+  .workshop-img{
+  width: 580px;
+  height: 539px;
+  margin-top: -470px;
+  }
+}
+/* What Makes the Minter Tick */
+.minter-section{
+  background-image: url("/img/minter/back-mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.minter-title{
+width: 280px;
+margin-left: auto;
+margin-right: auto;
+}
+.minter-subtitle{
+  font-family: "Monda" sans-serif;
+font-weight: 700;
+font-size: 28px;
+line-height: 114%;
+text-align: center;
+color: #fff;
+margin-top: 28px;
+margin-bottom: 40px;
+}
+.minter-list{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.minter-item{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.minter-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.first-minter-text{
+  font-weight: 700;
+  font-size: 20px;
+}
+.second-minter-text{
+  width: 220px;
+}
+@media only screen and (min-width: 1439px) {
+  .minter-section{
+    background-image: url("/img/minter/back-desk.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+  .minter-title{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .minter-subtitle{
+    font-size: 36px;
+    margin-top: 32px;
+    margin-bottom: 124px;
+  }
+  .minter-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1136px;
+    gap: 52px;
+    column-gap: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .minter-item{
+  gap: 36px;
+  }
+  .first-minter-text{
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .second-minter-text{
+    width: 320px;
+    font-size: 24px;
+  }
+}
