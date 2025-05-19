@@ -1,0 +1,49 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+
+.privacy-title{
+  font-family: "Monda" sans-serif;
+font-weight: 700;
+font-size: 28px;
+line-height: 114%;
+text-transform: uppercase;
+text-align: center;
+color: #0c0c0c;
+}
+.privacy-subtitle{
+  font-family: "Monda" sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+text-align: justify;
+color: #0c0c0c;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.text-span {
+  font-weight: 600;
+}
+.policy-list {
+  list-style-type: disc;
+  padding-left: 16px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.text {
+  margin-top: 16px;
+}
+@media only screen and (min-width: 1439px) {
+  .privacy-title{
+    font-size: 32px;
+  }
+}
