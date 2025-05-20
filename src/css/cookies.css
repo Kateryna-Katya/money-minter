@@ -4,23 +4,39 @@
 @import url('./footer.css');
 @import url('./header.css');
 
-.cookies-title{
-  font-family: "Monda" sans-serif;
+.background{
+  background: #fff;
+  font-family: "Monda", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: justify;
+    color: #0c0c0c;   
+}
+.cookies-title {
+  font-family: "Monda", sans-serif;
   font-weight: 700;
   font-size: 28px;
-  line-height: 114%;
+  line-height: 1.14286;
   text-transform: uppercase;
   text-align: center;
   color: #0c0c0c;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: none;
+  background-image: none;
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: initial;
 }
 .policy-subtitle {
-  font-family: "Monda" sans-serif;
+  font-family: "Monda", sans-serif;
 font-weight: 400;
 font-size: 20px;
 line-height: 140%;
 text-align: justify;
 color: #0c0c0c;
-  margin-top: 16px;
+  margin-top: 20px;
   font-size: 18px;
 }
 .text-container {
@@ -29,18 +45,14 @@ color: #0c0c0c;
   gap: 16px;
 }
 
-.text-span {
-  font-weight: 600;
-}
-
 .policy-subtitle {
-  margin-top: 16px;
-  font-size: 18px;
+  margin-top: 20px;
+  font-weight: 700;
 }
 
 .policy-list {
   list-style-type: disc;
-  padding-left: 16px;
+  padding-left: 30px;
 }
 
 .underline {
@@ -49,13 +61,15 @@ color: #0c0c0c;
 }
 
 .text {
-  margin-top: 16px;
+  margin-top: 20px;
+}
+.mail-link{
+  font-weight: 700;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 @media only screen and (min-width: 1439px) {
-  .policy-title {
-    font-size: 32px;
-  }
-  .policy-subtitle {
-    margin-bottom: 25px;
-  }
+  .background {
+      text-align: left;
+ }
 }

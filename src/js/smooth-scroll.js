@@ -20,22 +20,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    document.querySelectorAll('a[href*="#"]').forEach(anchor => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
-            const href = this.getAttribute('href');
-            const hashIndex = href.indexOf('#');
-    
-            if (hashIndex === -1) return;
-    
-            const targetId = href.substring(hashIndex + 1);
-            const isSamePage = !href.startsWith('http') && (href.startsWith('#') || href.startsWith('index.html#'));
-    
-            if (isSamePage) {
-                e.preventDefault();
-                smoothScrollToElement(targetId);
-            }
+          const href = this.getAttribute('href');
+      
+          if (href.startsWith('index.html#') || href.startsWith('http')) return;
+      
+          e.preventDefault();
+          const targetId = href.substring(1);
+          smoothScrollToElement(targetId);
         });
-    });
+      });
 
 
     const hash = window.location.hash;
