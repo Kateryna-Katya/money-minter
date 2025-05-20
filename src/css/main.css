@@ -54,6 +54,14 @@
   width: 338px;
   height: auto;
 }
+.hero-container{
+  position: relative;
+}
+.coin-hero-img{
+  position: absolute;
+  bottom: -250px;
+  left:0;
+}
 @media only screen and (min-width: 1439px) {
   .hero-section{
     background-image: url("/img/hero/hero-desk.png");
@@ -61,6 +69,9 @@
     background-position: top center;
     background-size: cover;
     height: 800px;
+  }
+  .coin-hero-img{
+    display: none;
   }
   .hero-logo{
     width: 417px;
@@ -376,8 +387,9 @@ right: 70px;
         url("/img/coin/back-desk.png");
       background-repeat: no-repeat, no-repeat;
       background-position: top center, top center;
-      background-size: cover, 100% 100%; } 
-}
+      background-size: cover, 100% 100%; 
+    } 
+
 .gold-title{
   margin-bottom: 52px;
 }
@@ -413,3 +425,83 @@ right: 70px;
   margin-left: 760px;
   margin-top: -460px;
 }
+}
+/* Lore Behind the Mint */
+.lore-section{
+  background-image:linear-gradient(180deg, rgba(5, 23, 1, 0.7) 0%, rgba(8, 52, 1, 0.7) 100%),
+   url("/img/lore/back-mob.png");
+ background-repeat: no-repeat, no-repeat;
+  background-position: top center, top center;
+  background-size: cover, cover;
+  }
+  .lore-title{
+    margin-bottom: 28px;
+  }
+  .lore-subtitle{
+    font-family: "Monda", sans-serif;
+      font-weight: 700;
+      font-size: 28px;
+       line-height: 1.14286;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 40px;
+  }
+ @media only screen and (min-width: 1439px) {
+  .lore-section {
+      background-image: linear-gradient(180deg, rgba(5, 23, 1, 0.7) 0%, rgba(8, 52, 1, 0.7) 100%),
+        url("/img/lore/back-desk.png");
+      background-repeat: no-repeat, no-repeat;
+      background-position: top center, top center;
+      background-size: cover, cover;
+    }
+  
+    .lore-title {
+      margin-bottom: 32px;
+    }
+  
+    .lore-subtitle {
+      font-size: 36px;
+      margin-bottom: 56px; 
+  }
+   .lore-text{
+    font-size: 24px;
+    text-align: center;
+    width: 1280px;
+    }
+ }
+ /* Disclaimer */
+ .disclaimer-section{
+  background: #083401;
+ }
+ .disclaimer-title{
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: left;
+ }
+ .disclaimer-container{
+  padding-top: 40px;
+  padding-bottom: 40px;
+ }
+ .disclaimer-text{
+  font-family: "Monda", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    text-align: justify;
+    color: #fff;
+ }
+ @media only screen and (min-width: 1439px) {
+  .disclaimer-title {
+    font-size: 48px;
+      margin-bottom: 24px;
+    }
+  
+    .disclaimer-container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }  
+    .disclaimer-text {
+      font-size: 24px;
+        line-height: 1.33333;
+ }
+ }
