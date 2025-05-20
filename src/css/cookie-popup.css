@@ -1,0 +1,93 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 20px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.18);
+        background: #062301;
+    z-index: 1000;
+    width: 374px;
+    height: auto;
+    text-align: left;
+    display: none;
+}
+.cookie-class {
+    font-family: "Monda", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #fff;
+        margin-top: 16px;
+}
+.popup-span{
+    font-weight: 600;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 335px;
+    height: 44px;
+    margin-top: 16px;
+}
+
+.btn-accept {
+    border-radius: 6px;
+    padding: 12px;
+    width: 151px;
+        height: 44px;
+    background: #fda000;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Monda", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.42857;
+        color: #10182f;
+        text-align: center;
+}
+
+.btn-decline {
+    border: 2px solid #fda000;
+    border-radius: 6px;
+        padding: 10px;
+        width: 160px;
+        height: 44px;
+        font-family: "Monda", sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 1.42857;
+            color: #fda000;
+            text-align: center;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 20px 40px;
+        width: 1439px;
+        height: auto;
+    }
+
+    .popup-wrapper {
+        display: flex;
+flex-direction: row;
+align-items: center;
+gap: 44px;
+    }
+
+    .cookie-class {
+width: 869px;
+margin-top: 0;
+    }
+
+    .cookie-buttons {
+            gap: 38px;
+            width: 358px;
+            margin-top: 0;
+    }
+}
